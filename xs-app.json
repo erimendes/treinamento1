@@ -1,0 +1,17 @@
+{
+    "welcomeFile": "home/index.html",
+    "authenticationMethod": "none",
+    "routes": [
+    {
+      "source": "^/home/(.*)$",
+      "target": "$1",
+      "localDir": "webapp"
+    },
+    {
+      "source": "^/route_to_invoice/(.*)$",
+      "target": "$1",
+      "destination": "invoice",
+      "csrfProtection": false
+    }
+  ]
+}

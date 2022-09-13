@@ -1,0 +1,8 @@
+{
+    "destinations":[
+        {
+            "name": "invoice",
+            "url": "https://services.odata.org/V2/Northwind/Northwind.svc/"
+        }
+    ]
+}
